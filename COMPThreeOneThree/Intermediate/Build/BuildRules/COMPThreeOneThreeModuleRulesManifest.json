@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/Guest/Documents/Unreal Projects/COMPThreeOneThree/Source/COMPThreeOneThree/COMPThreeOneThree.Build.cs",
+		"/Users/Guest/Documents/Unreal Projects/COMPThreeOneThree/Source/COMPThreeOneThree.Target.cs",
+		"/Users/Guest/Documents/Unreal Projects/COMPThreeOneThree/Source/COMPThreeOneThreeEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

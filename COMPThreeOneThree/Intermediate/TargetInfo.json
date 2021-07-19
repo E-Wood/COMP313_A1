@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "COMPThreeOneThree",
+			"Path": "/Users/Guest/Documents/Unreal Projects/COMPThreeOneThree/Source/COMPThreeOneThree.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "COMPThreeOneThreeEditor",
+			"Path": "/Users/Guest/Documents/Unreal Projects/COMPThreeOneThree/Source/COMPThreeOneThreeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
