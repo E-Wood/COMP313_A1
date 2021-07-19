@@ -1,4 +1,4 @@
-/Users/Guest/Documents/Unreal\ Projects/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Development/COMPThreeOneThree/COMPThreeOneThreeGameMode.gen.cpp.o: \
+/Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Development/COMPThreeOneThree/COMPThreeOneThreeGameMode.gen.cpp.o: \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/Engine/Public/TextureLayout.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/Engine/Public/TextureLayout3d.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/SoundWave.generated.h \
@@ -1275,7 +1275,7 @@
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/Core/Public/CoreTypes.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/Core/Public/Containers/ContainersFwd.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
-  /Users/Guest/Documents/Unreal\ Projects/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/COMPThreeOneThreeEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
+  /Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/COMPThreeOneThreeEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include/stddef.h \
@@ -2627,13 +2627,13 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/typeinfo \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/cstdint \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/atomic \
-  /Users/Guest/Documents/Unreal\ Projects/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/COMPThreeOneThree/COMPThreeOneThreeGameMode.gen.cpp \
-  /Users/Guest/Documents/Unreal\ Projects/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Development/COMPThreeOneThree/Definitions.COMPThreeOneThree.h \
+  /Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/COMPThreeOneThree/COMPThreeOneThreeGameMode.gen.cpp \
+  /Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Development/COMPThreeOneThree/Definitions.COMPThreeOneThree.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/MetaData.h \
-  /Users/Guest/Documents/Unreal\ Projects/COMPThreeOneThree/Source/COMPThreeOneThree/COMPThreeOneThreeGameMode.h \
+  /Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Source/COMPThreeOneThree/COMPThreeOneThreeGameMode.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/GameFramework/GameModeBase.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Source/Runtime/Engine/Classes/Engine/ServerStatReplicator.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/ServerStatReplicator.generated.h \
   /Users/Shared/Epic\ Games/UE_4.26/Engine/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/Engine/GameModeBase.generated.h \
-  /Users/Guest/Documents/Unreal\ Projects/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/COMPThreeOneThree/COMPThreeOneThreeGameMode.generated.h
+  /Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Intermediate/Build/Mac/x86_64/UE4Editor/Inc/COMPThreeOneThree/COMPThreeOneThreeGameMode.generated.h
