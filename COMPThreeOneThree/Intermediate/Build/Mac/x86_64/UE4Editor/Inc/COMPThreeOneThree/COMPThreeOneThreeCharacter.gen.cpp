@@ -310,7 +310,7 @@ void EmptyLinkFunctionForGeneratedCodeCOMPThreeOneThreeCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACOMPThreeOneThreeCharacter, 3938867345);
+	IMPLEMENT_CLASS(ACOMPThreeOneThreeCharacter, 741208078);
 	template<> COMPTHREEONETHREE_API UClass* StaticClass<ACOMPThreeOneThreeCharacter>()
 	{
 		return ACOMPThreeOneThreeCharacter::StaticClass();

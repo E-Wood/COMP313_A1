@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeCOMPThreeOneThreeHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACOMPThreeOneThreeHUD, 1460654393);
+	IMPLEMENT_CLASS(ACOMPThreeOneThreeHUD, 3387100647);
 	template<> COMPTHREEONETHREE_API UClass* StaticClass<ACOMPThreeOneThreeHUD>()
 	{
 		return ACOMPThreeOneThreeHUD::StaticClass();

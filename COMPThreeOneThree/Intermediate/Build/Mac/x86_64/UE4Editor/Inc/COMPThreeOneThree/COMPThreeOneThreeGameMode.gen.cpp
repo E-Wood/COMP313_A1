@@ -73,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeCOMPThreeOneThreeGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACOMPThreeOneThreeGameMode, 3042375054);
+	IMPLEMENT_CLASS(ACOMPThreeOneThreeGameMode, 115952044);
 	template<> COMPTHREEONETHREE_API UClass* StaticClass<ACOMPThreeOneThreeGameMode>()
 	{
 		return ACOMPThreeOneThreeGameMode::StaticClass();

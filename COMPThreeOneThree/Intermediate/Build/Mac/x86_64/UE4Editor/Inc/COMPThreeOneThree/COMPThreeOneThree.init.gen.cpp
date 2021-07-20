@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeCOMPThreeOneThree_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x5405513F,
+				0x5B96AECD,
 				0x96156887,
 				METADATA_PARAMS(nullptr, 0)
 			};

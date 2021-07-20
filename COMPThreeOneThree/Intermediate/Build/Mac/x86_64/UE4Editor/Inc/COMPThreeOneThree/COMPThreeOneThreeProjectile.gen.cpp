@@ -206,7 +206,7 @@ void EmptyLinkFunctionForGeneratedCodeCOMPThreeOneThreeProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACOMPThreeOneThreeProjectile, 1287469172);
+	IMPLEMENT_CLASS(ACOMPThreeOneThreeProjectile, 1867948996);
 	template<> COMPTHREEONETHREE_API UClass* StaticClass<ACOMPThreeOneThreeProjectile>()
 	{
 		return ACOMPThreeOneThreeProjectile::StaticClass();

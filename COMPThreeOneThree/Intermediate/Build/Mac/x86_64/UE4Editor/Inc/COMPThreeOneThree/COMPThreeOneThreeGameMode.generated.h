@@ -39,7 +39,7 @@ public: \
 	COMPTHREEONETHREE_API ACOMPThreeOneThreeGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACOMPThreeOneThreeGameMode) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(COMPTHREEONETHREE_API, ACOMPThreeOneThreeGameMode); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeGameMode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeGameMode); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	COMPTHREEONETHREE_API ACOMPThreeOneThreeGameMode(ACOMPThreeOneThreeGameMode&&); \
@@ -54,7 +54,7 @@ private: \
 	COMPTHREEONETHREE_API ACOMPThreeOneThreeGameMode(const ACOMPThreeOneThreeGameMode&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(COMPTHREEONETHREE_API, ACOMPThreeOneThreeGameMode); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeGameMode); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACOMPThreeOneThreeGameMode)
 
 

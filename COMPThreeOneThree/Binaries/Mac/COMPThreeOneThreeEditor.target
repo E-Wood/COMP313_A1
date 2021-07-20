@@ -9,14 +9,14 @@
 	"Version": 
 	{
 		"MajorVersion": 4,
-		"MinorVersion": 26,
-		"PatchVersion": 2,
-		"Changelist": 15973114,
-		"CompatibleChangelist": 14830424,
+		"MinorVersion": 27,
+		"PatchVersion": 0,
+		"Changelist": 16724560,
+		"CompatibleChangelist": 0,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 0,
-		"BranchName": "++UE4+Release-4.26",
-		"BuildId": "14830424"
+		"BranchName": "++UE4+Release-4.27",
+		"BuildId": "16724560"
 	},
 	"BuildProducts": [
 		{
@@ -84,6 +84,30 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Cameras/GameplayCameras/Binaries/Mac/UE4Editor-GameplayCameras.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Mac/UE4Editor-TemplateSequence.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Mac/UE4Editor-TemplateSequenceEditor.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Mac/UE4Editor-LevelSequenceEditor.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/OodleData/Binaries/Mac/UE4Editor-OodleDataCompressionFormat.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/OodleNetwork/Binaries/Mac/UE4Editor-OodleNetworkHandlerComponent.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Developer/AnimationSharing/Binaries/Mac/UE4Editor-AnimationSharing.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -129,6 +153,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/SubversionSourceControl/Binaries/Mac/UE4Editor-SubversionSourceControl.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/TextureFormatOodle/Binaries/Mac/UE4Editor-TextureFormatOodle.dylib",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -368,6 +396,18 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/Binaries/Mac/UE4Editor-PythonScriptPluginPreload.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/Binaries/Mac/UE4Editor-PythonScriptPlugin.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/Binaries/Mac/UE4Editor-ContentBrowserFileDataSource.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/CharacterAI/Binaries/Mac/UE4Editor-CharacterAI.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -512,6 +552,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Media/ImgMedia/Binaries/Mac/UE4Editor-ImgMediaEngine.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Media/ImgMedia/Binaries/Mac/UE4Editor-ImgMediaFactory.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -540,38 +584,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MegascansPlugin/Binaries/Mac/UE4Editor-MegascansPlugin.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/Binaries/Mac/UE4Editor-PythonScriptPluginPreload.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/Binaries/Mac/UE4Editor-PythonScriptPlugin.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/Binaries/Mac/UE4Editor-ContentBrowserFileDataSource.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/Binaries/Mac/UE4Editor-EditorScriptingUtilities.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteSupport/Binaries/Mac/UE4Editor-SQLiteSupport.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/DatabaseSupport/Binaries/Mac/UE4Editor-DatabaseSupport.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Mac/UE4Editor-SQLiteCore.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MeshPainting/Binaries/Mac/UE4Editor-MeshPaintEditorMode.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -596,19 +608,7 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Mac/UE4Editor-LevelSequenceEditor.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Mac/UE4Editor-MatineeToLevelSequence.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Mac/UE4Editor-TemplateSequence.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Mac/UE4Editor-TemplateSequenceEditor.dylib",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -701,6 +701,54 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/MobilePatchingUtils/Binaries/Mac/UE4Editor-MobilePatchingUtils.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Mac/UE4Editor-LiveLink.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Mac/UE4Editor-LiveLinkComponents.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Mac/UE4Editor-LiveLinkEditor.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Mac/UE4Editor-LiveLinkGraphNode.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Mac/UE4Editor-LiveLinkMovieScene.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Mac/UE4Editor-LiveLinkSequencer.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Mac/UE4Editor-TakesCore.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Mac/UE4Editor-TakeTrackRecorders.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Mac/UE4Editor-TakeRecorderSources.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Mac/UE4Editor-TakeRecorder.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Mac/UE4Editor-TakeMovieScene.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Mac/UE4Editor-TakeSequencer.dylib",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -880,6 +928,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-GeForceNOWWrapper.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-NullDrv.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -1024,6 +1076,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-DeveloperSettings.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-SignalProcessing.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -1084,10 +1140,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-DeveloperSettings.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-ChaosCore.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -1105,6 +1157,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-AnimGraphRuntime.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-PropertyPath.dylib",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1217,6 +1273,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-HeadMountedDisplay.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-EyeTracker.dylib",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1353,10 +1413,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-ViewportInteraction.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-SequenceRecorderSections.dylib",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1513,10 +1569,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-LandscapeEditorUtilities.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-PropertyPath.dylib",
 			"Type": "DynamicLibrary"
 		},
 		{
@@ -1996,10 +2048,6 @@
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-EyeTracker.dylib",
-			"Type": "DynamicLibrary"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-StreamingPauseRendering.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -2172,6 +2220,10 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-LiveLinkMessageBusFramework.dylib",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Mac/UE4Editor-AudioAnalyzer.dylib",
 			"Type": "DynamicLibrary"
 		},
@@ -2220,6 +2272,26 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Cameras/GameplayCameras/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/OodleData/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/OodleNetwork/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Developer/AnimationSharing/Binaries/Mac/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2261,6 +2333,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/SubversionSourceControl/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/TextureFormatOodle/Binaries/Mac/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2404,6 +2480,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/CharacterAI/Binaries/Mac/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2464,34 +2548,6 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MegascansPlugin/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteSupport/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/DatabaseSupport/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MeshPainting/Binaries/Mac/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2508,15 +2564,7 @@
 			"Type": "RequiredResource"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Mac/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/Binaries/Mac/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -2596,6 +2644,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Binaries/Mac/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/PhysXVehicles/Binaries/Mac/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2670,6 +2726,26 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Cameras/GameplayCameras/GameplayCameras.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/TemplateSequence.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/OodleData/OodleData.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Compression/OodleNetwork/OodleNetwork.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Developer/AnimationSharing/AnimationSharing.uplugin",
 			"Type": "UFS"
 		},
@@ -2711,6 +2787,10 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Developer/TextureFormatOodle/TextureFormatOodle.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -2854,6 +2934,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/PythonScriptPlugin.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/ContentBrowserFileDataSource.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Experimental/CharacterAI/CharacterAI.uplugin",
 			"Type": "UFS"
 		},
@@ -2918,34 +3006,6 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MegascansPlugin/MegascansPlugin.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Experimental/PythonScriptPlugin/PythonScriptPlugin.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/ContentBrowserFileDataSource.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Editor/EditorScriptingUtilities/EditorScriptingUtilities.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteSupport/SQLiteSupport.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/DatabaseSupport/DatabaseSupport.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Runtime/Database/SQLiteCore/SQLiteCore.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MeshPainting/MeshPainting.uplugin",
 			"Type": "UFS"
 		},
@@ -2962,15 +3022,7 @@
 			"Type": "UFS"
 		},
 		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
-			"Type": "UFS"
-		},
-		{
 			"Path": "$(EngineDir)/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/MovieScene/TemplateSequence/TemplateSequence.uplugin",
 			"Type": "UFS"
 		},
 		{
@@ -3059,6 +3111,26 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/OculusVR.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/OpenXR/OpenXR.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/OpenXREyeTracker/OpenXREyeTracker.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/OpenXRHandTracking/OpenXRHandTracking.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Animation/LiveLink/LiveLink.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/VirtualProduction/Takes/Takes.uplugin",
 			"Type": "UFS"
 		},
 		{

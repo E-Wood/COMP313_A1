@@ -39,7 +39,7 @@ public: \
 	NO_API ACOMPThreeOneThreeCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACOMPThreeOneThreeCharacter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACOMPThreeOneThreeCharacter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeCharacter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeCharacter); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACOMPThreeOneThreeCharacter(ACOMPThreeOneThreeCharacter&&); \
@@ -54,7 +54,7 @@ private: \
 	NO_API ACOMPThreeOneThreeCharacter(const ACOMPThreeOneThreeCharacter&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACOMPThreeOneThreeCharacter); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeCharacter); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACOMPThreeOneThreeCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACOMPThreeOneThreeCharacter)
 
 
