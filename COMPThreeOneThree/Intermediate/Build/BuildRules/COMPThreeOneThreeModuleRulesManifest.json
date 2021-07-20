@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"/Users/Guest/COMP313_A1/COMPThreeOneThree/Source/COMPThreeOneThree/COMPThreeOneThree.Build.cs",
-		"/Users/Guest/COMP313_A1/COMPThreeOneThree/Source/COMPThreeOneThree.Target.cs",
-		"/Users/Guest/COMP313_A1/COMPThreeOneThree/Source/COMPThreeOneThreeEditor.Target.cs"
+		"/Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Source/COMPThreeOneThree/COMPThreeOneThree.Build.cs",
+		"/Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Source/COMPThreeOneThree.Target.cs",
+		"/Users/Guest/Documents/COMP313_A1/COMPThreeOneThree/Source/COMPThreeOneThreeEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.0"
 }
