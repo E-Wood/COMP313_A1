@@ -1,0 +1,2 @@
+C:\Users\Elias\Documents\GitHub\COMP313_A1\COMP313_A1\Intermediate\Build\Win64\UE4Editor\Development\COMP313_A1\Definitions.COMP313_A1.h
+c:\users\elias\documents\github\comp313_a1\comp313_a1\source\comp313_a1\COMP313_A1.h

@@ -1,0 +1,5 @@
+C:\Users\Elias\Documents\GitHub\COMP313_A1\COMP313_A1\Intermediate\Build\Win64\UE4Editor\Development\COMP313_A1\Definitions.COMP313_A1.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Elias\Documents\GitHub\COMP313_A1\COMP313_A1\Source\COMP313_A1/COMP313_A1Projectile.h
+c:\users\elias\documents\github\comp313_a1\comp313_a1\intermediate\build\win64\ue4editor\inc\comp313_a1\COMP313_A1Projectile.generated.h
