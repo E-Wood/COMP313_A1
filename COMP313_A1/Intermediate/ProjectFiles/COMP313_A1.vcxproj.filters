@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\COMP313_A1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FADAE0FA-5211-4CAC-81D7-8F43BD72654E}</UniqueIdentifier>
+      <UniqueIdentifier>{76C77D1C-7F96-4EF7-B97C-5230A8D7C04C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\COMP313_A1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0D76957A-5228-44D0-8333-D72FBAE6E805}</UniqueIdentifier>
+      <UniqueIdentifier>{65B126E9-3B21-41AD-9D5B-842FA2864AE4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\COMP313_A1">
-      <UniqueIdentifier>{B738759A-AF7B-4180-8CB7-3DBCA1F602FF}</UniqueIdentifier>
+      <UniqueIdentifier>{1A3E2D8B-D188-4EB0-862C-2BA833FFB1FF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\COMP313_A1\COMP313_A1.Build.cs">
       <Filter>Source\COMP313_A1</Filter>
@@ -63,6 +63,12 @@
       <Filter>Source\COMP313_A1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\COMP313_A1\COMP313_A1Projectile.h">
+      <Filter>Source\COMP313_A1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\COMP313_A1\MenuCamera.cpp">
+      <Filter>Source\COMP313_A1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP313_A1\MenuCamera.h">
       <Filter>Source\COMP313_A1</Filter>
     </ClInclude>
   </ItemGroup>
