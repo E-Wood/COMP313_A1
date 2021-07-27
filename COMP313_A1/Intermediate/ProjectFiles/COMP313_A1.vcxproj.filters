@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\COMP313_A1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{76C77D1C-7F96-4EF7-B97C-5230A8D7C04C}</UniqueIdentifier>
+      <UniqueIdentifier>{C7001F73-2264-46D4-A34E-55522BD39401}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\COMP313_A1.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{65B126E9-3B21-41AD-9D5B-842FA2864AE4}</UniqueIdentifier>
+      <UniqueIdentifier>{AF71FA4A-2B3C-43BD-B19D-65E3F79D0806}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\COMP313_A1">
-      <UniqueIdentifier>{1A3E2D8B-D188-4EB0-862C-2BA833FFB1FF}</UniqueIdentifier>
+      <UniqueIdentifier>{7E50533B-AA14-4AE6-871E-64029A46B039}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\COMP313_A1\COMP313_A1.Build.cs">
       <Filter>Source\COMP313_A1</Filter>
@@ -69,6 +69,18 @@
       <Filter>Source\COMP313_A1</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\COMP313_A1\MenuCamera.h">
+      <Filter>Source\COMP313_A1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\COMP313_A1\PlatformerGamemode.cpp">
+      <Filter>Source\COMP313_A1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP313_A1\PlatformerGamemode.h">
+      <Filter>Source\COMP313_A1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\COMP313_A1\PlayerCharacter.cpp">
+      <Filter>Source\COMP313_A1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\COMP313_A1\PlayerCharacter.h">
       <Filter>Source\COMP313_A1</Filter>
     </ClInclude>
   </ItemGroup>

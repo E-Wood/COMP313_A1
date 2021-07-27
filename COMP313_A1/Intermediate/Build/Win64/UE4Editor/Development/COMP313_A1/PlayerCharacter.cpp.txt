@@ -1,0 +1,9 @@
+C:\Users\Elias\Documents\GitHub\COMP313_A1\COMP313_A1\Intermediate\Build\Win64\UE4Editor\Development\COMP313_A1\Definitions.COMP313_A1.h
+c:\users\elias\documents\github\comp313_a1\comp313_a1\source\comp313_a1\PlayerCharacter.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\Elias\Documents\GitHub\COMP313_A1\COMP313_A1\Intermediate\Build\Win64\UE4Editor\Inc\COMP313_A1\PlayerCharacter.generated.h
