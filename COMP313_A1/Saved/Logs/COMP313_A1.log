@@ -3273,3 +3273,174 @@ GameplayDebuggerCategoryReplicator
 [2021.07.28-16.38.21:632][593]LogContentValidation: Display: Validating World /Game/CustomContent/Levels/Game_Level.Game_Level
 [2021.07.28-16.38.21:632][593]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/Actors/PlayerCharacterBP.PlayerCharacterBP
 [2021.07.28-16.38.21:632][593]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/Misc/PlatformerGamemodeBP.PlatformerGamemodeBP
+[2021.07.28-16.43.43:268][ 51]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.07.28-16.43.43:288][ 51]LogContentBrowser: Creating deferred item: NewFolder
+[2021.07.28-16.43.45:040][258]LogContentBrowser: Attempting asset rename: NewFolder -> Animations
+[2021.07.28-16.43.45:041][258]LogContentBrowser: End creating deferred item NewFolder
+[2021.07.28-16.43.49:721][665]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2021.07.28-16.43.49:744][665]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.07.28-16.43.53:784][665]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.07.28-16.44.00:135][665]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2021.07.28-16.44.00:145][665]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2021.07.28-16.44.00:156][665]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2021.07.28-16.44.03:568][ 28]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> NewAnimBlueprint
+[2021.07.28-16.44.03:574][ 28]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2021.07.28-16.44.03:735][ 39]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Animations/NewAnimBlueprint.NewAnimBlueprint
+[2021.07.28-16.44.03:795][ 39]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.07.28-16.44.04:003][ 39]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.07.28-16.44.04:012][ 39]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2021.07.28-16.44.13:889][916]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> ArmAnimations
+[2021.07.28-16.44.13:908][916]LogMetaData: Removing '/Game/Animations/ArmAnimations.ArmAnimations:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2021.07.28-16.44.13:908][916]LogMetaData: Removing '/Game/Animations/ArmAnimations.SKEL_ArmAnimations_C:AnimGraph' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2021.07.28-16.44.13:908][916]LogMetaData: Removing '/Game/Animations/ArmAnimations.SKEL_ArmAnimations_C' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2021.07.28-16.44.13:908][916]LogMetaData: Removing '/Game/Animations/ArmAnimations.ArmAnimations_C:AnimGraph' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2021.07.28-16.44.13:908][916]LogMetaData: Removing '/Game/Animations/ArmAnimations.ArmAnimations_C' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2021.07.28-16.44.13:908][916]LogMetaData: Removing '/Game/Animations/ArmAnimations.ArmAnimations:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2021.07.28-16.44.13:908][916]LogMetaData: Removing '/Game/Animations/ArmAnimations.ArmAnimations:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Animations/NewAnimBlueprint.PackageMetaData'
+[2021.07.28-16.44.13:942][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/ArmAnimations" FILE="../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/Animations/ArmAnimations.uasset" SILENT=true
+[2021.07.28-16.44.13:952][916]LogSavePackage: Moving '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Saved/ArmAnimations9E3849D142AB70F9E7E804A08C0FCC44.tmp' to '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/Animations/ArmAnimations.uasset'
+[2021.07.28-16.44.14:085][916]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
+[2021.07.28-16.44.14:136][916]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2021.07.28-16.44.14:175][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.07.28-16.44.14:258][916]AssetCheck: New page: Asset Save: ArmAnimations
+[2021.07.28-16.44.14:258][916]LogContentValidation: Display: Validating AnimBlueprint /Game/Animations/ArmAnimations.ArmAnimations
+[2021.07.28-16.54.34:582][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/ArmAnimations" FILE="../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/Animations/ArmAnimations.uasset" SILENT=true
+[2021.07.28-16.54.34:615][288]LogSavePackage: Moving '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Saved/ArmAnimations5924541C4C22898F8C3FA4B6C450D7DC.tmp' to '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/Animations/ArmAnimations.uasset'
+[2021.07.28-16.54.34:634][288]AssetCheck: New page: Asset Save: ArmAnimations
+[2021.07.28-16.54.34:634][288]LogContentValidation: Display: Validating AnimBlueprint /Game/Animations/ArmAnimations.ArmAnimations
+[2021.07.28-16.54.40:593][995]BlueprintLog: New page: Compile ArmAnimations
+[2021.07.28-16.54.40:688][995]LogUObjectHash: Compacting FUObjectHashTables data took   5.41ms
+[2021.07.28-16.55.01:789][392]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.07.28-16.55.17:257][ 61]BlueprintLog: New page: Compile PlayerCharacterBP
+[2021.07.28-16.55.17:358][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   6.99ms
+[2021.07.28-16.55.20:285][394]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2021.07.28-16.55.20:350][394]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.07.28-16.55.20:404][394]LogSavePackage: Moving '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Saved/Game_Level88CCE15F42EF853D08DA729C991B3D63.tmp' to '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/CustomContent/Levels/Game_Level.umap'
+[2021.07.28-16.55.20:413][394]LogFileHelpers: Saving map 'Game_Level' took 0.106
+[2021.07.28-16.55.20:443][394]LogSavePackage: Moving '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Saved/PlayerCharacterBP12640E80401DE724828F5A94499D3130.tmp' to '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/CustomContent/Actors/PlayerCharacterBP.uasset'
+[2021.07.28-16.55.20:462][394]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.28-16.55.20:462][394]LogContentValidation: Display: Validating World /Game/CustomContent/Levels/Game_Level.Game_Level
+[2021.07.28-16.55.20:462][394]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/Actors/PlayerCharacterBP.PlayerCharacterBP
+[2021.07.28-16.55.31:310][381]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.28-16.55.31:317][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.28-16.55.31:317][381]PIE: New page: PIE session: Game_Level (29/07/2021, 4:55:31 pm)
+[2021.07.28-16.55.31:318][381]LogPlayLevel: Creating play world package: /Game/CustomContent/Levels/UEDPIE_0_Game_Level
+[2021.07.28-16.55.31:329][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011380s)
+[2021.07.28-16.55.31:330][381]LogAIModule: Creating AISystem for world Game_Level
+[2021.07.28-16.55.31:330][381]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2021.07.28-16.55.31:330][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CustomContent/Levels/Game_Level.Game_Level to /Game/CustomContent/Levels/UEDPIE_0_Game_Level.Game_Level (0.012787s)
+[2021.07.28-16.55.31:384][381]LogUObjectHash: Compacting FUObjectHashTables data took   5.42ms
+[2021.07.28-16.55.31:388][381]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2021.07.28-16.55.31:388][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.28-16.55.31:388][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.28-16.55.31:388][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.28-16.55.31:388][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.28-16.55.31:388][381]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.28-16.55.31:388][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.28-16.55.31:388][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.28-16.55.31:388][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.28-16.55.31:389][381]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.28-16.55.31:389][381]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.28-16.55.31:397][381]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.28-16.55.31:397][381]LogAudioMixer: Display: 1: FrontRight
+[2021.07.28-16.55.31:408][381]LogAudioMixer: Display: Using Audio Device Main Out 1/2 (Studio 24c)
+[2021.07.28-16.55.31:409][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.28-16.55.31:409][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.28-16.55.31:409][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.28-16.55.31:409][381]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.28-16.55.31:409][381]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.28-16.55.31:409][381]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.28-16.55.31:423][381]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.28-16.55.31:423][381]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.28-16.55.31:423][381]LogInit: FAudioDevice initialized.
+[2021.07.28-16.55.31:423][381]LogAudio: Display: Audio Device (ID: 37) registered with world 'Game_Level'.
+[2021.07.28-16.55.31:450][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.28-16.55.31:450][381]LogLoad: Game class is 'PlatformerGamemode'
+[2021.07.28-16.55.31:456][381]LogWorld: Bringing World /Game/CustomContent/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2021.07.29-04.55.31
+[2021.07.28-16.55.31:456][381]LogWorld: Bringing up level for play took: 0.005057
+[2021.07.28-16.55.31:456][381]LogOnline: OSS: Creating online subsystem instance for: :Context_76
+[2021.07.28-16.55.31:458][381]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.28-16.55.31:460][381]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.07.28-16.55.31:460][381]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.07.28-16.55.31:462][381]PIE: Server logged in
+[2021.07.28-16.55.31:462][381]PIE: Play in editor total start time 0.146 seconds.
+[2021.07.28-16.55.32:412][450]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.07.28-16.55.32:412][450]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.07.28-16.55.43:096][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.28-16.55.43:096][312]LogWorld: BeginTearingDown for /Game/CustomContent/Levels/UEDPIE_0_Game_Level
+[2021.07.28-16.55.43:097][312]LogSlate: Window 'COMP313_A1 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.07.28-16.55.43:101][312]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2021.07.28-16.55.43:103][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.28-16.55.43:114][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.28-16.55.43:140][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.28-16.55.43:186][312]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.28-16.55.43:186][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.28-16.55.43:187][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.28-16.55.43:211][312]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2021.07.28-16.55.43:231][313]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2021.07.28-16.56.05:539][832]BlueprintLog: New page: Compile PlayerCharacterBP
+[2021.07.28-16.56.05:638][832]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2021.07.28-16.56.06:156][886]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.28-16.56.06:164][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.28-16.56.06:164][886]PIE: New page: PIE session: Game_Level (29/07/2021, 4:56:06 pm)
+[2021.07.28-16.56.06:164][886]LogPlayLevel: Creating play world package: /Game/CustomContent/Levels/UEDPIE_0_Game_Level
+[2021.07.28-16.56.06:173][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009214s)
+[2021.07.28-16.56.06:174][886]LogAIModule: Creating AISystem for world Game_Level
+[2021.07.28-16.56.06:174][886]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2021.07.28-16.56.06:174][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CustomContent/Levels/Game_Level.Game_Level to /Game/CustomContent/Levels/UEDPIE_0_Game_Level.Game_Level (0.010403s)
+[2021.07.28-16.56.06:221][886]LogUObjectHash: Compacting FUObjectHashTables data took   5.50ms
+[2021.07.28-16.56.06:223][886]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.28-16.56.06:223][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.28-16.56.06:223][886]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.28-16.56.06:223][886]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.28-16.56.06:229][886]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.28-16.56.06:229][886]LogAudioMixer: Display: 1: FrontRight
+[2021.07.28-16.56.06:239][886]LogAudioMixer: Display: Using Audio Device Main Out 1/2 (Studio 24c)
+[2021.07.28-16.56.06:239][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.28-16.56.06:239][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.28-16.56.06:240][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.28-16.56.06:240][886]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.28-16.56.06:240][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.28-16.56.06:240][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.28-16.56.06:254][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.28-16.56.06:254][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.28-16.56.06:254][886]LogInit: FAudioDevice initialized.
+[2021.07.28-16.56.06:254][886]LogAudio: Display: Audio Device (ID: 38) registered with world 'Game_Level'.
+[2021.07.28-16.56.06:278][886]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.28-16.56.06:278][886]LogLoad: Game class is 'PlatformerGamemode'
+[2021.07.28-16.56.06:283][886]LogWorld: Bringing World /Game/CustomContent/Levels/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2021.07.29-04.56.06
+[2021.07.28-16.56.06:284][886]LogWorld: Bringing up level for play took: 0.004613
+[2021.07.28-16.56.06:284][886]LogOnline: OSS: Creating online subsystem instance for: :Context_77
+[2021.07.28-16.56.06:286][886]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.07.28-16.56.06:287][886]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2021.07.28-16.56.06:287][886]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2021.07.28-16.56.06:289][886]PIE: Server logged in
+[2021.07.28-16.56.06:290][886]PIE: Play in editor total start time 0.128 seconds.
+[2021.07.28-16.56.06:879][916]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2021.07.28-16.56.06:879][916]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2021.07.28-16.56.32:034][ 54]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.28-16.56.32:034][ 54]LogWorld: BeginTearingDown for /Game/CustomContent/Levels/UEDPIE_0_Game_Level
+[2021.07.28-16.56.32:035][ 54]LogSlate: Window 'COMP313_A1 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.07.28-16.56.32:043][ 54]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2021.07.28-16.56.32:043][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.28-16.56.32:051][ 54]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.28-16.56.32:078][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.28-16.56.32:124][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.28-16.56.32:125][ 54]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.28-16.56.32:145][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2021.07.28-16.56.32:166][ 55]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2021.07.28-16.57.05:716][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.07.28-16.57.05:778][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2021.07.28-16.57.05:828][ 22]LogSavePackage: Moving '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Saved/Game_LevelB11ECC85419AB22577F29685419BAD45.tmp' to '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/CustomContent/Levels/Game_Level.umap'
+[2021.07.28-16.57.05:837][ 22]LogFileHelpers: Saving map 'Game_Level' took 0.102
+[2021.07.28-16.57.05:875][ 22]LogSavePackage: Moving '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Saved/PlayerCharacterBP0CD53420484317242141EA92ED824FAF.tmp' to '../../../../../../Users/Elias/Documents/GitHub/COMP313_A1/COMP313_A1/Content/CustomContent/Actors/PlayerCharacterBP.uasset'
+[2021.07.28-16.57.05:891][ 22]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.28-16.57.05:891][ 22]LogContentValidation: Display: Validating World /Game/CustomContent/Levels/Game_Level.Game_Level
+[2021.07.28-16.57.05:891][ 22]LogContentValidation: Display: Validating Blueprint /Game/CustomContent/Actors/PlayerCharacterBP.PlayerCharacterBP
