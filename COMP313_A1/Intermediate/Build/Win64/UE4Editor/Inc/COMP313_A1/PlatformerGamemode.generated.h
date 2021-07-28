@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define COMP313_A1_PlatformerGamemode_generated_h
 
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_SPARSE_DATA
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_RPC_WRAPPERS
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_INCLASS_NO_PURE_DECLS \
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_SPARSE_DATA
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_RPC_WRAPPERS
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlatformerGamemode(); \
 	friend struct Z_Construct_UClass_APlatformerGamemode_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(APlatformerGamemode)
 
 
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_INCLASS \
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlatformerGamemode(); \
 	friend struct Z_Construct_UClass_APlatformerGamemode_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(APlatformerGamemode)
 
 
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_STANDARD_CONSTRUCTORS \
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlatformerGamemode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlatformerGamemode) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_ENHANCED_CONSTRUCTORS \
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlatformerGamemode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlatformerGamemode); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlatformerGamemode)
 
 
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_PRIVATE_PROPERTY_OFFSET
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_12_PROLOG
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_GENERATED_BODY_LEGACY \
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_PRIVATE_PROPERTY_OFFSET
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_14_PROLOG
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_PRIVATE_PROPERTY_OFFSET \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_SPARSE_DATA \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_RPC_WRAPPERS \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_INCLASS \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_STANDARD_CONSTRUCTORS \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_PRIVATE_PROPERTY_OFFSET \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_SPARSE_DATA \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_RPC_WRAPPERS \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_INCLASS \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_GENERATED_BODY \
+#define COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_PRIVATE_PROPERTY_OFFSET \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_SPARSE_DATA \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_INCLASS_NO_PURE_DECLS \
-	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_15_ENHANCED_CONSTRUCTORS \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_PRIVATE_PROPERTY_OFFSET \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_SPARSE_DATA \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_INCLASS_NO_PURE_DECLS \
+	COMP313_A1_Source_COMP313_A1_PlatformerGamemode_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

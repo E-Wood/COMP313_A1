@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "PlayerCharacter.h"
 #include "PlatformerGamemode.generated.h"
+
 
 /**
  * 
@@ -15,4 +17,5 @@ class COMP313_A1_API APlatformerGamemode : public AGameModeBase
 	GENERATED_BODY()
 		
 	virtual void StartPlay() override;
+	
 };

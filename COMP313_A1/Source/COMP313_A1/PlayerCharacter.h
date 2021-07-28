@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "PlayerCharacter.generated.h"
 
 UCLASS()
@@ -26,4 +28,25 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	// Forward/Back Movement handling
+	UFUNCTION()
+		void MoveForward(float Value);
+
+	// Left/Right Movement handling
+	UFUNCTION()
+		void MoveRight(float Value);
+
+	// Starting jump
+	UFUNCTION()
+		void StartJump();
+
+	// Stopping jump
+	UFUNCTION()
+		void StopJump();
+
+	// sets first person camera
+	UPROPERTY(VisibleAnywhere)
+		UCameraComponent* CameraComponent;
 };
+
+
