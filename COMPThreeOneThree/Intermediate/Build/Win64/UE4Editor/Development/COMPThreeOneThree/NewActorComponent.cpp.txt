@@ -1,3 +1,0 @@
-C:\Users\Elias\Documents\GitHub\COMP313_A1\COMPThreeOneThree\Intermediate\Build\Win64\UE4Editor\Development\COMPThreeOneThree\Definitions.COMPThreeOneThree.h
-c:\users\elias\documents\github\comp313_a1\compthreeonethree\source\compthreeonethree\NewActorComponent.h
-C:\Users\Elias\Documents\GitHub\COMP313_A1\COMPThreeOneThree\Intermediate\Build\Win64\UE4Editor\Inc\COMPThreeOneThree\NewActorComponent.generated.h
